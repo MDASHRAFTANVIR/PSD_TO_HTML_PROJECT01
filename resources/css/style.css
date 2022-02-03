@@ -1,0 +1,702 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+/*-- Reuseable Component--*/
+.row {
+    max-width: 114.0rem;
+    margin: 0 auto;
+}
+
+section {
+    padding: 8rem;
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+/*-- ALL HEADING STYLES---*/
+/*-- ALL HEADING STYLES---*/
+/*-- ALL HEADING STYLES---*/
+
+h1 {
+    font-size: 3.4rem;
+    color: white;
+
+}
+
+
+/*-- FIRST SECTION STYLES START---*/
+/*-- FIRST SECTION STYLES START---*/
+/*-- FIRST SECTION STYLES START---*/
+
+
+
+/*-- HEADER SECTION START---*/
+/*-- HEADER SECTION START---*/
+/*-- HEADER SECTION START---*/
+
+header {
+
+    background-image: linear-gradient(rgba(135, 80, 156, 0.8), rgba(135, 80, 156, 0.8)), url(img/hero-bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    position: relative;
+
+
+}
+
+/*-- LOGO---*/
+/*-- LOGO---*/
+/*-- LOGO---*/
+.logo {
+    height: 4.0rem;
+    width: auto;
+    float: left;
+    margin-top: 3.5rem;
+}
+
+
+/*-- NAVIGATION STYLES START---*/
+/*-- NAVIGATION STYLES START---*/
+/*-- NAVIGATION STYLES START---*/
+.main-nav {
+    float: right;
+    margin-top: 4.5rem;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 1.0rem;
+}
+
+.main-nav li:first-child {
+    margin-left: 0px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+    border-color: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: .8rem 1.4rem;
+    border-radius: .8rem;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    background-color: #643a79;
+}
+
+.active {
+    background: #643a79;
+}
+
+
+/*-- NAVIGATION STYLES END---*/
+/*-- NAVIGATION STYLES END---*/
+/*-- NAVIGATION STYLES END---*/
+
+
+
+/*-- MIDDLE TEXT BOX STYLES START---*/
+/*-- MIDDLE TEXT BOX STYLES START---*/
+/*-- MIDDLE TEXT BOX STYLES START---*/
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 600;
+
+}
+
+/*-- MIDDLE TEXT BOX STYLES END---*/
+/*-- MIDDLE TEXT BOX STYLES END---*/
+/*-- MIDDLE TEXT BOX STYLES END---*/
+
+
+/*-- BUTTON STYLE ---*/
+/*-- BUTTON STYLE ---*/
+/*-- BUTTON STYLE ---*/
+
+.btn-hero {
+    color: white;
+    background-color: #eb7d4b;
+    text-decoration: none;
+    border: 3px #c86a40;
+    margin-top: 5.0rem;
+    padding: 1.8rem 7.0rem;
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+/*-- HEADER SECTION END---*/
+/*-- HEADER SECTION END---*/
+/*-- HEADER SECTION END---*/
+
+
+/*-- SECOND SECTION/SERVICES START--*/
+/*-- SECOND SECTION/SERVICES START--*/
+/*-- SECOND SECTION/SERVICES START--*/
+
+
+.services-section {
+
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(rgba(23, 194, 164, 0.9), rgba(23, 194, 164, 0.9)), url(img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.first-h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.first-h2::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    width: 8.5rem;
+    background: #14a58c;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+
+.first-p {
+    font-size: 1.4rem;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 2rem;
+    color: #e9f7f5;
+
+}
+
+.services-icon {
+    height: 12.5rem;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.h3-first {
+    font-size: 1.8rem;
+
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.frrt-p {
+    font-size: 1.2rem;
+    color: #e9f7f5;
+    text-align: center;
+}
+
+/*--- SERVICE/ SECOND SECTION END---*/
+/*--- SERVICE/ SECOND SECTION END---*/
+/*--- SERVICE/ SECOND SECTION END---*/
+
+
+/* START THIRD / TEAM SECTION --*/
+/* START THIRD / TEAM SECTION --*/
+/* START THIRD / TEAM SECTION --*/
+
+.team-section {
+    background: linear-gradient(rgba(231, 241, 248, 0.8), rgba(231, 241, 248, 0.8)), url(img/team-bg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.first-p-p {
+    font-size: 1.3rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 2rem;
+    color: #e9f7f5;
+    font-size: 1.5rem;
+
+}
+
+.team-section p {
+    color: #3c4761;
+    margin-top: 2.5rem;
+}
+
+.second-h2 {
+    font-size: 3.2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: #3c4761;
+    text-align: center;
+}
+
+.second-h2::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    width: 8.5rem;
+    background: #c8d9e5;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+
+.second-p {
+    font-size: 1.5rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 2.2rem;
+    color: #3c4761;
+    text-align: center;
+    font-weight: 510;
+}
+
+.team-member {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+
+}
+
+.second-h3 {
+    margin-top: 2rem;
+    margin-bottom: .4rem;
+    color: #27283d;
+    font-size: 2.4rem;
+    font-weight: 510;
+    text-transform: uppercase;
+}
+
+.role {
+    color: #6171ec;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+
+}
+
+.social-link {
+    margin-top: 2rem;
+
+
+}
+
+.social-link ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.6rem;
+}
+
+.social-link ul li a {
+    color: #fff;
+    background-color: cadetblue;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding: .6rem;
+    transition: 0.4s;
+}
+
+.social-link ul li a:hover {
+    background-color: #393939;
+    transform: rotate(360deg);
+}
+
+/*--- END THIRD SECTION/ TEAM SECTION --*/
+/*--- END THIRD SECTION/ TEAM SECTION --*/
+/*--- END THIRD SECTION/ TEAM SECTION --*/
+
+
+/*--- SKILLS SECTION / 4TH SECTION START--*/
+/*--- SKILLS SECTION / 4TH SECTION START--*/
+/*--- SKILLS SECTION / 4TH SECTION START--*/
+.skill-section {
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/skill-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.skill-section .box {
+    margin-top: 4.5rem;
+}
+
+.skill-section h3 {
+    margin-top: 3rem;
+    color: #3c4761;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.skill-section p {
+    font-size: 1.7rem;
+}
+
+svg.radial-progress circle {
+    stroke-width: 8;
+}
+
+svg.radial-progress text {
+    fill: #3c4761;
+    font-size: 1.5rem;
+}
+
+svg.web-design circle {
+    stroke: #30bae7;
+}
+
+svg.html circle {
+    stroke: #d74680;
+}
+
+svg.graphic circle {
+    stroke: #15c7a8;
+}
+
+svg.ui circle {
+    stroke: #eb7d4b;
+}
+
+
+/*--- SKILLS SECTION / 4TH SECTION END--*/
+/*--- SKILLS SECTION / 4TH SECTION END--*/
+/*--- SKILLS SECTION / 4TH SECTION END--*/
+
+
+
+
+/*--- PORTFOLIO SECTION/ 5TH SECTION START --*/
+/*--- PORTFOLIO SECTION/ 5TH SECTION START --*/
+/*--- PORTFOLIO SECTION/ 5TH SECTION START --*/
+.portfolio-section {
+    background: #ffdd99;
+    text-align: center;
+}
+
+.portfolio-section .second-h2::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    width: 8.5rem;
+    background: #e5c37f;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.second-p-p {
+    font-size: 1.5rem;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 3rem;
+    line-height: 2.2rem;
+    color: #3c4761;
+    text-align: center;
+    font-weight: 510;
+}
+
+.button-filter {
+    margin: 2rem 4rem;
+}
+
+.button-filter button {
+    font-size: 1.6rem;
+    background: #ebc985;
+    border: 0;
+    padding: 1rem 2rem;
+    margin: 0 .7rem;
+    border-radius: .5rem;
+    font-weight: 504;
+    transition: 0.5s;
+}
+
+.button-filter button:hover {
+    background: #17a1c2;
+    cursor: pointer;
+    box-shadow: inset 0 .3rem 0.5rem #ebc985;
+
+
+}
+
+.portfolio-image {
+    width: 100%;
+    margin-top: 3rem;
+    height: auto;
+}
+
+.portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+
+.portfolio-section h3 {
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #393939;
+}
+
+.btn-more {
+    border: 0;
+    color: #fff;
+    background: #17c2a4;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+    padding: 2rem 3.5rem;
+    font-weight: 510;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: inset 0 .3rem 0.5rem #ebc985;
+
+}
+
+.portfolio-section .mixitup-control-active {
+    background: #fff;
+}
+
+/*--- PORTFOLIO SECTION/ 5TH SECTION END --*/
+/*--- PORTFOLIO SECTION/ 5TH SECTION END --*/
+/*--- PORTFOLIO SECTION/ 5TH SECTION END --*/
+
+
+
+
+/*--- REVIEW SECTION / 6TH SECTION START --*/
+/*--- REVIEW SECTION / 6TH SECTION START --*/
+/*--- REVIEW SECTION / 6TH SECTION START --*/
+
+
+.review {
+    background: linear-gradient(rgba(215, 70, 128, 0.9), rgba(215, 70, 128, 0.9)), url(img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.thd-h2 {
+    font-size: 3.2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.thd-h2::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    width: 8.5rem;
+    background: #787878;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+
+.thd-p {
+    font-size: 1.5rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 2.2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.review .col:nth-child(4) {
+    margin-left: 0;
+}
+
+.review .col:nth-child(1),
+.review .col:nth-child(2) {
+    margin-top: 3rem;
+}
+
+.review .col:nth-child(3),
+.review .col:nth-child(4) {
+    margin-top: 7rem;
+}
+
+.details {
+    width: 60%;
+    float: right;
+    padding-right: 2rem;
+}
+
+.port img {
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    width: 25%;
+    margin-left: 3rem;
+}
+
+.details p {
+    color: #fff;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.details h3 {
+    color: azure;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+
+
+}
+
+.details h5 {
+    color: #ffdd99;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.review .col:nth-child(3) {
+    margin-left: 0;
+}
+
+.review .col:nth-child(2) {
+    margin-left: 0;
+}
+
+/*-- REVIEW SECTION END --- */
+/*-- REVIEW SECTION END --- */
+/*-- REVIEW SECTION END --- */
+
+
+
+/*---- CONTACT SECTION START---*/
+/*---- CONTACT SECTION START---*/
+/*---- CONTACT SECTION START---*/
+.contact-section {
+    background: linear-gradient(rgba(60, 84, 153, 0.9), rgba(60, 84, 153, 0.9)), url(img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    text-align: center;
+}
+
+.contact-section form {
+    margin-top: 4rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    border: .1rem solid #273a71;
+    background: #273a71;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    color: aliceblue;
+}
+
+.contact-section form ::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.btn-final {
+    background: #30bae7;
+    color: #fff;
+    border: 0;
+    font-size: 1.5rem;
+    padding: 1.6rem 5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    box-shadow: inset 0rem 0.4rem 1rem #30bae7;
+    border-radius: .5rem;
+}
+
+.btn-final:hover {
+    cursor: pointer;
+}
+
+
+/*--- CONTACT SECTION END ---*/
+/*--- CONTACT SECTION END ---*/
+/*--- CONTACT SECTION END ---*/
+
+
+/*---FOOTER SECTION START---*/
+/*---FOOTER SECTION START---*/
+/*---FOOTER SECTION START---*/
+
+.footer-section {
+    background: #344b8e;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, 0.3);
+    padding: 3rem 0;
+}
+
+.footer-section li {
+    display: inline-block;
+    margin: 0 2.3rem;
+}
+
+.footer-section li a {
+    text-decoration: none;
+    color: beige;
+    font-size: 1.9rem;
+}
+
+/*--FOOTER SECTION END---*/
+/*--FOOTER SECTION END---*/
+/*--FOOTER SECTION END---*/
